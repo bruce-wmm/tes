@@ -13,6 +13,8 @@
 		185D3C9921DF034900D4A222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185D3C9821DF034900D4A222 /* Assets.xcassets */; };
 		185D3C9C21DF034A00D4A222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D3C9A21DF034A00D4A222 /* LaunchScreen.storyboard */; };
 		185D3C9F21DF034A00D4A222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3C9E21DF034A00D4A222 /* main.m */; };
+		185D3CA721DF044900D4A222 /* MaskLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3CA621DF044900D4A222 /* MaskLabel.m */; };
+		185D3CAA21DF04B400D4A222 /* Labelayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3CA921DF04B400D4A222 /* Labelayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		185D3C9B21DF034A00D4A222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185D3C9D21DF034A00D4A222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185D3C9E21DF034A00D4A222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185D3CA521DF044900D4A222 /* MaskLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLabel.h; sourceTree = "<group>"; };
+		185D3CA621DF044900D4A222 /* MaskLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLabel.m; sourceTree = "<group>"; };
+		185D3CA821DF04B400D4A222 /* Labelayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Labelayer.h; sourceTree = "<group>"; };
+		185D3CA921DF04B400D4A222 /* Labelayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labelayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				185D3C9021DF034700D4A222 /* AppDelegate.m */,
 				185D3C9221DF034700D4A222 /* ViewController.h */,
 				185D3C9321DF034700D4A222 /* ViewController.m */,
+				185D3CA521DF044900D4A222 /* MaskLabel.h */,
+				185D3CA621DF044900D4A222 /* MaskLabel.m */,
+				185D3CA821DF04B400D4A222 /* Labelayer.h */,
+				185D3CA921DF04B400D4A222 /* Labelayer.m */,
 				185D3C9521DF034800D4A222 /* Main.storyboard */,
 				185D3C9821DF034900D4A222 /* Assets.xcassets */,
 				185D3C9A21DF034A00D4A222 /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 			files = (
 				185D3C9421DF034700D4A222 /* ViewController.m in Sources */,
 				185D3C9F21DF034A00D4A222 /* main.m in Sources */,
+				185D3CAA21DF04B400D4A222 /* Labelayer.m in Sources */,
+				185D3CA721DF044900D4A222 /* MaskLabel.m in Sources */,
 				185D3C9121DF034700D4A222 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V76P979YME;
 				INFOPLIST_FILE = TestCalayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TaoArt.com.TestCalayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V76P979YME;
 				INFOPLIST_FILE = TestCalayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TaoArt.com.TestCalayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
