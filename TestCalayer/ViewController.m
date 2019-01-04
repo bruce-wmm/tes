@@ -19,10 +19,14 @@
     MaskLabel *la = [[MaskLabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
     la.text = @"fddsfsfd";
     [self.view addSubview:la];
-    
-    
 }
 
+
+
+
+- (void)tedt{
+    NSLog(@"这个是吃啥");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
