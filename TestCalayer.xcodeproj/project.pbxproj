@@ -14,6 +14,7 @@
 		185D3C9C21DF034A00D4A222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D3C9A21DF034A00D4A222 /* LaunchScreen.storyboard */; };
 		185D3C9F21DF034A00D4A222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3C9E21DF034A00D4A222 /* main.m */; };
 		185D3CA721DF044900D4A222 /* MaskLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3CA621DF044900D4A222 /* MaskLabel.m */; };
+		185D3CAD21DF0BA200D4A222 /* MaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3CAC21DF0BA200D4A222 /* MaskLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		185D3C9E21DF034A00D4A222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185D3CA521DF044900D4A222 /* MaskLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLabel.h; sourceTree = "<group>"; };
 		185D3CA621DF044900D4A222 /* MaskLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLabel.m; sourceTree = "<group>"; };
+		185D3CAB21DF0BA200D4A222 /* MaskLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayer.h; sourceTree = "<group>"; };
+		185D3CAC21DF0BA200D4A222 /* MaskLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				185D3C9321DF034700D4A222 /* ViewController.m */,
 				185D3CA521DF044900D4A222 /* MaskLabel.h */,
 				185D3CA621DF044900D4A222 /* MaskLabel.m */,
+				185D3CAB21DF0BA200D4A222 /* MaskLayer.h */,
+				185D3CAC21DF0BA200D4A222 /* MaskLayer.m */,
 				185D3C9521DF034800D4A222 /* Main.storyboard */,
 				185D3C9821DF034900D4A222 /* Assets.xcassets */,
 				185D3C9A21DF034A00D4A222 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			files = (
 				185D3C9421DF034700D4A222 /* ViewController.m in Sources */,
 				185D3C9F21DF034A00D4A222 /* main.m in Sources */,
+				185D3CAD21DF0BA200D4A222 /* MaskLayer.m in Sources */,
 				185D3CA721DF044900D4A222 /* MaskLabel.m in Sources */,
 				185D3C9121DF034700D4A222 /* AppDelegate.m in Sources */,
 			);

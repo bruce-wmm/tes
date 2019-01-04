@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MaskLabel.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    MaskLabel *la = [[MaskLabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
+    la.text = @"fddsfsfd";
+    [self.view addSubview:la];
+    
+    
 }
 
 
